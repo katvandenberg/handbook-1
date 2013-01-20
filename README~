@@ -8,7 +8,3 @@ INSTRUCTIONS:
 2. Paste the contents of those chapters into the Handbook.tex file in the order you would like them to appear.
 3. Save the document.
 4. Use a LaTex editor to create a .pdf of your handbook.
-
-CONTRIBUTE:
-
-If you would like to contribute, create a fork of the project.
