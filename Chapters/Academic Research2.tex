@@ -1,3 +1,81 @@
+
+\documentclass[book]{memoir}
+\usepackage{color,graphicx}
+
+\usepackage{wrapfig}
+\definecolor{ared}{rgb}{.647,.129,.149}
+\renewcommand\colorchapnum{\color{ared}}
+\renewcommand\colorchaptitle{\color{ared}}
+\chapterstyle{pedersen}
+\setsecheadstyle{\color{ared}\Large\bfseries\memRTLraggedright}
+
+%-----------------
+%Fonts
+%-----------------
+%\usepackage{fourier}
+
+\usepackage{fontspec}
+\setmainfont{Linux Libertine}
+
+%------------------------------
+
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+  colorlinks,
+  linkcolor=black,
+  urlcolor=ared}
+ 
+\usepackage{verbatim}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+
+
+\setlength{\parindent}{0pt}
+\nonzeroparskip
+
+% New Stuff--------------
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}} % Generic publisher logo
+\usepackage{graphicx} % Required for box manipulation
+
+\newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
+\newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
+
+\newcommand*{\titleBC}{\begingroup % Create the command for including the title page in the document
+\centering % Center all text
+
+\def\CP{\textit{\Huge The Open Handbook}} % Title
+
+\settowidth{\unitlength}{\CP} % Set the width of the curly brackets to the width of the title
+{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
+\textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
+{\color{RosyBrown}\Large BOSTON UNIVERSITY} \\ % Tagline or further description
+{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
+
+\vfill % Whitespace between the title and the author name
+
+{\Large{Taylor and Vandenberg}}\\ % Author name
+
+\vfill % Whitespace between the author name and the publisher logo
+
+%\plogo\\[0.5\baselineskip] % Publisher logo
+2013 % Year published
+
+\endgroup}
+
+\begin{document}
+
+\titleBC % This command includes the title page
+\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+\newpage
+
+   %=============================================================
+   %             +++++   PASTE CHAPTERS BELOW THIS LINE +++++
+   %=============================================================
+
 %-----------------------
 % Academic Research
 %-----------------------
@@ -273,4 +351,6 @@ Occasionally, students find one or two sources on a topic and then despair of fi
 Keeping a research journal is an important habit to develop. Every student or professor has had the unsettling realization that they have used a quotation in their writing but have no recollection of where the quote came from. Many hours can be consumed retracing steps. Frequently, source materials are never located again. To avoid this problem, keep a research journal where you record the bibliographic information of each source you read or browse. This way you can quickly locate the information again. 
 
 Although a paper notebook works well as a research journal, there are some very promising electronic alternatives. This bibliographic software can maintain a record of your sources, help you take notes, and even automatically produce perfectly formatted bibliography pages for your essays. For Mac users, there is \href{http://www.sonnysoftware.com/}{\{Bookends\}}. PC users should consider \href{http://www.biblioscape.com}{\{Biblioscape\}}. However, the free and open-source option known as \href{http://zotero.org}{\{Zotero\}} is perhaps the best option of all.
-%----------------------------------------------------------------------------------------
+
+
+\end{document}

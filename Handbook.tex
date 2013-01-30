@@ -1,20 +1,30 @@
 
 \documentclass[book]{memoir}
 \usepackage{color,graphicx}
+
+\usepackage{wrapfig}
 \definecolor{ared}{rgb}{.647,.129,.149}
 \renewcommand\colorchapnum{\color{ared}}
 \renewcommand\colorchaptitle{\color{ared}}
 \chapterstyle{pedersen}
 \setsecheadstyle{\color{ared}\Large\bfseries\memRTLraggedright}
 
-\usepackage{fourier}
+%-----------------
+%Fonts
+%-----------------
+%\usepackage{fourier}
+
+\usepackage{fontspec}
+\setmainfont{Linux Libertine}
+
+%------------------------------
 
 \usepackage[hidelinks]{hyperref}
 
 \hypersetup{
   colorlinks,
   linkcolor=black,
-  urlcolor=blue}
+  urlcolor=ared}
  
 \usepackage{verbatim}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
@@ -44,7 +54,7 @@
 
 \vfill % Whitespace between the title and the author name
 
-{\Large{Vandenberg and Taylor}}\\ % Author name
+{\Large{Taylor and Vandenberg}}\\ % Author name
 
 \vfill % Whitespace between the author name and the publisher logo
 
