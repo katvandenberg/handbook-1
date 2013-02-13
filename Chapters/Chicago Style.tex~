@@ -1,0 +1,259 @@
+
+%----------------------------------------------------------------------------------------
+%	THE CHICAGO STYLE
+%----------------------------------------------------------------------------------------
+
+\chapter{Chicago style}
+
+\section {Formatting the Chicago essay}
+
+When setting up your word processor for a Chicago-formatted document, use the following settings and rules:
+
+\begin{itemize}
+
+\item Use 1'' margins on all sides of the document.
+\item Place your last name and page number on the right side of each page in the document's header.
+\item Double-space throughout the document (except for block quotes, which are single-spaced).
+\item Block quotes are formed when a quote runs five lines or more. Single-space the block quote. Indent the entire block of text with a 0.5'' tab from the left margin.
+\item Endnotes and bibliographic entries are single-spaced with a blank line separating them.
+\item Indent the first line of a note entry with a .5'' tab.
+\item The Chicago form requires a title page. The title of the essay is centered about 1/3 down the page. Place your name at the center of the document. Near the bottom of the page place your course information and date on three separate, centered lines about 1/3 up from the bottom of the page.
+
+\textbf{*}\textbf{Note}: the title page is \emph{counted but not numbered}. Therefore, begin your actual essay with page 2.
+\end{itemize}
+
+Models of the title page and first page of the Chicago-formatted essay may be found on the following pages:
+
+%----------CHICAGO TITLE PAGE EXAMPLE
+\newpage
+\thispagestyle{empty}
+\begin{Spacing}{2}
+\vspace* {3cm}
+\begin{center}The War to End All Wars\end{center}
+\vspace {4cm}
+\begin{center}Jeff Smith\end{center}
+\vspace {5cm}
+\begin{center}History 101\\
+Professor Crito\\
+January 22, 2012\end{center}
+\end{Spacing}
+\newpage
+
+%First Page of Chicago Essay
+
+
+\thispagestyle{empty}
+\begin{flushright}Johnson 2\end{flushright}
+\bigskip
+\begin{Spacing}{2}
+
+ While all of the world may indeed be a stage, we must be decisive in the measures we take in order to prevent the curtain from closing too soon. We currently live in an era of great political uncertainty. After the Cold War, America suddenly became the stand-alone world power, dominating international treaties, coalitions, and movements. This "unipolarity" has resulted in one of the most wholly economically prosperous and peaceful periods of time in history.\textsuperscript{1} The coexistence and international functionality that we enjoyed during the 90s for a large part can be credited to the United States' influential methods of maintaining world order.
+\end{Spacing}
+\newpage
+%--------------DONE-------
+
+
+
+\section {In-text citations}
+The Chicago format uses either \textbf{endnotes} or \textbf{footnotes} to cite sources within the text. While the choice between them is left to the author, \emph{we require that you use endnotes} in the Chicago form since they prove less distracting and do not affect the page count of your written work. 
+
+In the Chicago form, an in-text citation is indicated by a superscript number resembling the following:
+
+\begin{quote}
+Recent scholarship on the concept of sovereignty has displayed a remarkable lack of interest in the role of private property.\textsuperscript{7}
+\end{quote}
+This in-text reference will correspond to a citation at the conclusion of the document, such as this one:
+
+\begin{quote}
+ 7. Giorgio Agamben, \emph{Homo Sacer: Sovereign Power and Bare Life} (Stanford: Stanford UP, 1998), 96.
+\end{quote}
+
+
+\section{The notes page}
+
+In the Chicago style, the endnotes appear on what is known as the notes page\textemdash a separate page that directly follows the conclusion of the essay. The notes page is organized as a numbered list that presents each citation in the order that it appears within the essay. Thus, your first citation will be endnote 1, your second will be endnote 2, and so on.
+
+When setting up the notes page, use the following rules:
+
+\begin{enumerate}
+\item Center the word "Notes" at the top of the page.
+\item Double-space endnotes.
+\item Indent the first line of an endnote entry with one .5'' tab.
+\end{enumerate}
+
+In the interest of efficiency, the Chicago form uses a number of rules to streamline the work involved in presenting the essay's footnotes or endnotes. While this design ultimately means less typing, a number of strict rules must be followed:
+
+\begin{enumerate}
+\item Present the citations in the numerical order as they appear within the text.
+
+\item The first time a source is cited, use the full Chicago notes form.
+
+\item If the same source is used more than once, the shorthand version of the Chicago notes form is used the second (and each subsequent) time. The shorthand version contains \textbf{a)} the author's last name, \textbf{b)} a shortened version of the title, and \textbf{c)} the page number of the citation.
+
+\item If a single source is used twice or more in a row, the Latin abbreviation "ibid." is used along with the page number, rather than the shorthand version of the form. (Ibid. means "in the same place.")
+
+\item If the same source is used \emph{twice in a row} and the citation \emph{is from the same page as the previous citation}, "ibid." is used by itself \emph{without} the page number. 
+\end{enumerate}
+
+Here is an illustration of the formatting of the notes page:
+\newpage
+
+\thispagestyle{empty}
+
+\thispagestyle{empty}
+\begin{flushright}Smith 24\end{flushright}
+\begin{center}Notes\end{center}
+\begin{Spacing}{2}
+
+ \hspace{.4in} 1. Jeff Goldberg and Robert Smith, "The Anger of the Average Joe," \emph{American History} 28, no. 5 (1987): 345-66.
+
+  \hspace{.4in} 2. Grady Little, \emph{An Uncivil Game} (New York: Random House, 2001), 230.
+
+  \hspace{.4in} 3. Goldberg and Smith, "Average Joe," 350.
+
+  \hspace{.4in} 4. Little, \emph{Uncivil}, 110.
+
+ \hspace{.4in}  5. Ibid., 111.
+
+  \hspace{.4in} 6. Ibid.
+\end{Spacing}
+
+\newpage
+
+
+\section{The bibliography page}
+Some professors may ask you to include both a notes page and a full bibliography page when using the Chicago format. As you will see in the next section, the bibliography form differs slightly from the notes form, so take care to use the correct one.
+
+\begin{itemize}
+\item Place the bibliography page after the notes page.
+\item Center the word "Bibliography" at the top of the page.
+\item Double-space entries.
+\item Alphabetize by the author's last name.
+\item Indent the second (and any subsequent) line of an entry with a .5'' tab.
+\end{itemize}
+
+The following page contains an example of the formatting for a Chicago bibliography page.
+\newpage
+
+
+
+%-----CHICAGO BIBLIOGRAPHY    PAGE--------
+
+
+\thispagestyle{empty}
+\thispagestyle{empty}
+\begin{flushright}Smith 25\end{flushright}
+\begin{center}Bibliography\end{center}
+\begin{Spacing}{2}
+Carter, Jimmy. \emph{Life as a Peanut Farmer: Words of Wisdom for the Southern Man}. 
+
+\hspace{.4in}Atlanta: Peach Press, 1984.
+
+Graves, Hugo. \emph{Living with Armadillos, a Practical Guide}. Austin: Dunder-Mifflin,
+
+\hspace{.4in}1998.
+
+Hide, Frank. "My Life in a South African Prison: How I Survived." \emph{Penal System}
+
+\hspace{.4in}Quarterly 77, no. 3 (1987): 12-34.
+
+Zither, Les. "Preserving the Land of the Oswegos." \emph{New York Times}, October 5,  2012. 
+
+\hspace{.4in}http://www.nytimes.com/2012/10/5/frontpage/445683.html
+
+\end{Spacing}
+
+\newpage
+
+
+
+
+\section{Common Chicago forms}
+
+In each of the following, the first item is the note form; the second item is the bibliography form.
+	 	 	
+\textbf{A book by one author}:
+
+\begin{quote}
+ \hspace{.4in}1. James McClintock, \emph{The Greek Polis: A History} (New York: Knopf, 2000), 23.
+
+McClintock, James. \emph{The Greek Polis: A History}. New York: Knopf,  2000.
+\end{quote}
+
+
+\textbf{Edited collection}:
+\begin{quote}
+ \hspace{.4in}12. Russell Simmons, ed., \emph{Of Moose and Men: Reflections on Hunting New Hampshire} (Concord: Granite Press, 1997), 123.
+
+Simmons, Russell, ed. \emph{Of Moose and Men: Reflections on Hunting New  Hampshire}. Concord: Granite Press, 1997.
+\end{quote}
+
+\textbf{A book with an author and editor}:
+
+\begin{quote}
+ 2. Grace Helen, \emph{The City of Granite}, ed. Daniel Miller (New York: Pantheon, 2001), 50.
+
+Helen, Grace. \emph{The City of Granite}. Edited by Daniel Miller. New York:  Pantheon, 2001.
+\end{quote}
+
+\textbf{A translation}:
+\begin{quote}
+ 1. Esther Buffon, \emph{Tiny Deaths}, trans. John Smith (New York: Francophone Press, 1987), 43.
+
+Buffon, Esther. \emph{Tiny Deaths}. Translated by John Smith. New York:  Francophone Press, 1987.
+\end{quote}
+
+
+\textbf{An edition other than the first}:
+
+\begin{quote}
+ 13. Daniel Graves, \emph{Interdisciplinary Moves}, 2nd ed. (New York: Jazz Press, 1999), 56.
+
+Graves, Daniel. \emph{Interdisciplinary Moves}. 2nd ed. New York: Jazz Press,  1999.
+\end{quote}
+
+\textbf{A selection from an anthology}:
+\begin{quote}
+
+ 45. Johanna Burden, ``Women's Muck,'' in \emph{Southern Women Writers}, ed. Jeff Goldblume (Nashville: Magnolia Press, 2005), 34-78.
+
+Burden, Johanna. ``Women's Muck.'' In \emph{Southern Women Writers},  edited by Jeff Goldblume, 
+34-78. Nashville: Magnolia Press, 2005.
+\end{quote}
+
+\textbf{Article in scholarly journal}:
+\begin{quote}
+ 16. Jeff London, ``The War of 1812,'' \emph{Journal of American History} 87, no. 1 (1998): 10.
+
+London, Jeff. ``The War of 1812.'' \emph{Journal of American History} 87, no.  1 (1998): 1-24.
+\end{quote}
+
+\textbf{Journal article from an online database}:
+\begin{quote}
+
+ 16. Jeff Bags, ``Teaching Rules for Educators,'' \emph{Teacher's Quarterly} 45 (1999): 34, doi: 11.2288/1128767384937.
+
+Bags, Jeff. `Teaching Rules for Educators.' \emph{Teacher's Quarterly} 45  (1999): 30-49. doi: 11.2288/1128767384937.
+\end{quote}
+
+\textbf{*}If the article does not have a doi number listed, use the stable url to the article in its place. If that is not available, simply list the name of the database in question (JSTOR, Academic Search Complete, EBSCO, etc.).
+
+
+\textbf{Magazine article}:
+\begin{quote}
+ 17. Brian Taylor, ``Making a Business,'' \emph{Atlantic}, June 10, 2012, 23.
+
+Taylor, Brian. ``Making a Business.'' \emph{Atlantic}, June 10, 2012, 20-24.
+\end{quote}
+
+
+\textbf{Newspaper article}:
+\begin{quote}
+ 18. Don Osborne, ``The Trouble with Children,'' \emph{New York Times}, February 26, 2011, A1.
+
+Osborne, Dan. ``The Trouble with Children.'' \emph{New York Times}, February  26, 2011, A1.
+\end{quote}
+
+%----------------------------------------------------------------------------------------
+% END OF SECTION
+%----------------------------------------------------------------------------------------
