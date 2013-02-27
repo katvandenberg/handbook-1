@@ -2,6 +2,8 @@
 \documentclass[book, oneside]{memoir}
 \usepackage{color,graphicx}
 
+\graphicspath{{Chapters/images/}}
+
 \usepackage{wrapfig}
 \definecolor{ared}{rgb}{.647,.129,.149}
 \renewcommand\colorchapnum{\color{ared}}
@@ -37,6 +39,8 @@
 % New Stuff--------------
 \newcommand*{\plogo}{\fbox{$\mathcal{PL}$}} % Generic publisher logo
 \usepackage{graphicx} % Required for box manipulation
+
+
 
 \newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
 \newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
@@ -75,10 +79,31 @@
 
 
 %===========================================
-%             +++++   PASTE CHAPTERS BELOW THIS LINE +++++
+%    Delete or Rearrange chapter order by editing the input lines below
 %===========================================
 
+\input{Chapters/Introduction}
+\input{Chapters/TypesofWriting}
+\input{Chapters/WorkingwithSources}
+\input{Chapters/DocumentationandPlagiarism}
+\input{Chapters/MLAStyle}
+\input{Chapters/ChicagoStyle}
+\input{Chapters/Plagiarism}
 
+
+\input{Chapters/Introductions}
+\input{Chapters/Conclusions}
+\input{Chapters/ThesisStatements}
+\input{Chapters/ParagraphCoherence}
+\input{Chapters/ConcisionandPrecision}
+\input{Chapters/Transitions}
+\input{Chapters/GlossingReverseOutlining}
+\input{Chapters/ParallelStructure}
+\input{Chapters/ActivevsPassiveVoice}
+
+\input{Chapters/AcademicResearch}
+\input{Chapters/Annotating}
+\input{Chapters/GradingRubric}
 
 
 \end{document}
