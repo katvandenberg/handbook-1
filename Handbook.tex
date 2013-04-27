@@ -2,14 +2,21 @@
 \documentclass[book, oneside]{memoir}
 \usepackage{color,graphicx}
 
+\usepackage{draftwatermark}
+\SetWatermarkText{Draft}
+\SetWatermarkScale{.7}
+
+\definecolor{dartmouthgreen}{RGB}{0, 105, 62}
+
 \graphicspath{{Chapters/images/}}
 
 \usepackage{wrapfig}
 \definecolor{ared}{rgb}{.647,.129,.149}
-\renewcommand\colorchapnum{\color{ared}}
-\renewcommand\colorchaptitle{\color{ared}}
+%\definecolor{ared}{RGB}{96, 120, 72}
+\renewcommand\colorchapnum{\color{dartmouthgreen}}
+\renewcommand\colorchaptitle{\color{dartmouthgreen}}
 \chapterstyle{pedersen}
-\setsecheadstyle{\color{ared}\Large\bfseries\memRTLraggedright}
+\setsecheadstyle{\color{dartmouthgreen}\Large\bfseries\memRTLraggedright}
 
 %-----------------
 %Fonts
@@ -20,8 +27,9 @@
 \setmainfont{Linux Libertine}
 
 %------------------------------
+\setcounter{tocdepth}{2}
 
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
 
 \hypersetup{
   colorlinks,
@@ -53,7 +61,7 @@
 \settowidth{\unitlength}{\CP} % Set the width of the curly brackets to the width of the title
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
 \textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
-{\color{RosyBrown}\Large BOSTON UNIVERSITY} \\ % Tagline or further description
+%{\color{RosyBrown}\Large BOSTON UNIVERSITY} \\ % Tagline or further description
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
 
 \vfill % Whitespace between the title and the author name
@@ -79,7 +87,7 @@
 
 
 %===========================================
-%    Delete or Rearrange chapter order by editing the input lines below
+% Delete or Rearrange chapter order by editing the input lines below
 %===========================================
 
 \input{Chapters/Introduction}
@@ -88,7 +96,7 @@
 \input{Chapters/DocumentationandPlagiarism}
 \input{Chapters/MLAStyle}
 \input{Chapters/ChicagoStyle}
-\input{Chapters/Plagiarism}
+%\input{Chapters/Plagiarism}
 
 
 \input{Chapters/Introductions}
@@ -102,7 +110,7 @@
 \input{Chapters/ActivevsPassiveVoice}
 
 \input{Chapters/AcademicResearch}
-\input{Chapters/Annotating}
+%\input{Chapters/Annotating}
 \input{Chapters/GradingRubric}
 
 
