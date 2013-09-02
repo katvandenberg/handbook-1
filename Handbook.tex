@@ -1,5 +1,5 @@
 
-\documentclass[book, oneside]{memoir}
+\documentclass[book, oneside, openany]{memoir}
 \usepackage{color,graphicx}
 \usepackage{pifont}
 \usepackage{draftwatermark}
@@ -26,6 +26,10 @@
 %\usepackage{fourier}
 
 \usepackage{fontspec}
+
+%\defaultfontfeatures{Mapping=tex-text}
+% Uncomment the above remark to use curly quotes rather than straight.
+
 \setmainfont{Linux Libertine}
 
 %------------------------------
@@ -58,12 +62,12 @@
 \newcommand*{\titleBC}{\begingroup % Create the command for including the title page in the document
 \centering % Center all text
 
-\def\CP{\textit{\Huge The Open Handbook}} % Title
+\def\CP{{\Huge \emph{The Open Handbook}}} % Title
 
 \settowidth{\unitlength}{\CP} % Set the width of the curly brackets to the width of the title
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
 \textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
-{\color{RosyBrown}\Large BOSTON UNIVERSITY} \\ % Tagline or further description
+{\color{RosyBrown}\Large DARTMOUTH COLLEGE} \\ % Tagline or further description
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
 
 \vfill % Whitespace between the title and the author name
@@ -96,9 +100,9 @@
 \input{Chapters/TypesofWriting}
 \input{Chapters/WorkingwithSources}
 \input{Chapters/DocumentationandPlagiarism}
+\input{Chapters/Plagiarism}
 \input{Chapters/MLAStyle}
 \input{Chapters/ChicagoStyle}
-\input{Chapters/Plagiarism}
 \input{Chapters/Introductions}
 \input{Chapters/Conclusions}
 \input{Chapters/ThesisStatements}
